@@ -5,7 +5,7 @@ import {
   DIFFICULTY_RAMP_INTERVAL,
   DIFFICULTY_SPEED_INCREMENT,
   DIFFICULTY_SPAWN_REDUCTION,
-} from '@/constants'
+} from '../constants'
 
 export class DifficultyManager {
   private elapsed = 0

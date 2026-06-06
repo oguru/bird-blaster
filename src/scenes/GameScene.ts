@@ -1,13 +1,13 @@
 import Phaser from 'phaser'
-import { Player } from '@/entities/Player'
-import { Bird } from '@/entities/Bird'
-import { BbqSauceRow } from '@/entities/BbqSauce'
-import { ProjectileManager } from '@/entities/Projectile'
-import { PowerUpBar } from '@/systems/PowerUpBar'
-import { DifficultyManager } from '@/systems/DifficultyManager'
-import { ScoreManager } from '@/systems/ScoreManager'
-import { GAME_WIDTH, GAME_HEIGHT, WEAPON_CONE_DAMAGE } from '@/constants'
-import type { WeaponMode } from '@/models/GameTypes'
+import { Player } from '../entities/Player'
+import { Bird } from '../entities/Bird'
+import { BbqSauceRow } from '../entities/BbqSauce'
+import { ProjectileManager } from '../entities/Projectile'
+import { PowerUpBar } from '../systems/PowerUpBar'
+import { DifficultyManager } from '../systems/DifficultyManager'
+import { ScoreManager } from '../systems/ScoreManager'
+import { GAME_WIDTH, GAME_HEIGHT, WEAPON_CONE_DAMAGE } from '../constants'
+import type { WeaponMode } from '../models/GameTypes'
 
 export class GameScene extends Phaser.Scene {
   private player!: Player

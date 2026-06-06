@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
-import { generateTextures } from '@/AssetGenerator'
-import { ensureAudioGenerated } from '@/AudioGenerator'
+import { generateTextures } from '../AssetGenerator'
+import { ensureAudioGenerated } from '../AudioGenerator'
 
 export class BootScene extends Phaser.Scene {
   constructor() {

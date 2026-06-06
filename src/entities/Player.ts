@@ -1,5 +1,5 @@
 import Phaser from 'phaser'
-import type { WeaponMode, PlayerState } from '@/models/GameTypes'
+import type { WeaponMode, PlayerState } from '../models/GameTypes'
 import {
   GAME_WIDTH,
   GAME_HEIGHT,
@@ -11,7 +11,7 @@ import {
   POWERUP_SUPER_FIRE_RATE_MULTIPLIER,
   POWERUP_SUPER_DURATION,
   POWERUP_FIRE_DURATION,
-} from '@/constants'
+} from '../constants'
 
 export class Player {
   sprite: Phaser.Physics.Arcade.Sprite

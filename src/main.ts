@@ -1,9 +1,9 @@
 import Phaser from 'phaser'
-import { BootScene } from '@/scenes/BootScene'
-import { MenuScene } from '@/scenes/MenuScene'
-import { GameScene } from '@/scenes/GameScene'
-import { GameOverScene } from '@/scenes/GameOverScene'
-import { GAME_WIDTH, GAME_HEIGHT } from '@/constants'
+import { BootScene } from './scenes/BootScene'
+import { MenuScene } from './scenes/MenuScene'
+import { GameScene } from './scenes/GameScene'
+import { GameOverScene } from './scenes/GameOverScene'
+import { GAME_WIDTH, GAME_HEIGHT } from './constants'
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,

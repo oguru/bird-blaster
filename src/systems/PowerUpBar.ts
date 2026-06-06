@@ -6,7 +6,7 @@ import {
   POWERUP_PER_SAUCE_KILL,
   POWERUP_SUPER_CHANCE,
   POWERUP_FIRE_KILL_MULTIPLIER,
-} from '@/constants'
+} from '../constants'
 
 export class PowerUpBar {
   private scene: Phaser.Scene

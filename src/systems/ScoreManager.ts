@@ -1,5 +1,5 @@
 import Phaser from 'phaser'
-import { SCORE_PER_KILL, SCORE_PER_SAUCE_KILL } from '@/constants'
+import { SCORE_PER_KILL, SCORE_PER_SAUCE_KILL } from '../constants'
 
 export class ScoreManager {
   private score = 0

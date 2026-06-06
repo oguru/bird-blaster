@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
-import type { BirdState } from '@/models/GameTypes'
-import { GAME_HEIGHT, BIRD_HP } from '@/constants'
+import type { BirdState } from '../models/GameTypes'
+import { GAME_HEIGHT, BIRD_HP } from '../constants'
 
 export class Bird {
   sprite: Phaser.Physics.Arcade.Sprite

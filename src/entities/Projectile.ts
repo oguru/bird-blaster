@@ -6,7 +6,7 @@ import {
   WEAPON_BLAST_DAMAGE,
   WEAPON_BLAST_WIDTH,
   WEAPON_BLAST_HEIGHT,
-} from '@/constants'
+} from '../constants'
 
 export class ProjectileManager {
   private scene: Phaser.Scene

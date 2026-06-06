@@ -1,5 +1,5 @@
 import Phaser from 'phaser'
-import { GAME_WIDTH, GAME_HEIGHT, BBQ_SAUCE_COUNT, BBQ_SAUCE_Y_OFFSET } from '@/constants'
+import { GAME_WIDTH, GAME_HEIGHT, BBQ_SAUCE_COUNT, BBQ_SAUCE_Y_OFFSET } from '../constants'
 
 export class BbqSauceRow {
   bottles: Phaser.GameObjects.Sprite[] = []
